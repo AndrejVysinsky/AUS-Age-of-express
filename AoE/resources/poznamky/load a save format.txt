@@ -1,0 +1,22 @@
+den
+serverovy cas
+pocetDorucenych zasielok
+najazdeneKM vozidiel
+pocet skladov
+sklad pocetDorucenych pocetOdoslanych poradovnik
+pocet dronov typu1
+denZaradenia cislo obsadenost bateria nalietaneHodiny prepraveneZasielky
+...
+pocet dronov typu2
+...
+pocet objednavok
+odkial odkialVzd kam kamVzd vaha
+...
+pocet objadnavok na dalsi den
+odkial odkialVzd kam kamVzd vaha
+...
+pocet zrusenych objednavok
+odkial odkialVzd kam kamVzd vaha dovodZrusenia
+...
+pocet vozidiel
+denZaradenia nosnost cenaNaRegion celkoveNaklady vahaB vahaBdalsiDen jeVcentrale spz dlzkaTrasy pocetRegionov nazovRegionu

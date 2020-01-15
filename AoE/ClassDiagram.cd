@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Miesto">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAABAAAAAAAAAAAAAAEAAAgAABAAAAAAAQA=</HashCode>
+      <FileName>Miesto.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objednavka">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgCAAAAADAiAAAQAABAAEABACAAAAAAQAABAAAAA=</HashCode>
+      <FileName>Objednavka.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dron">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAwAIAABBMAACABAEABAAAQAQCIEAQgAAAIAAAEQI=</HashCode>
+      <FileName>Dron.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypDronu">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgAAABAAAQAAACIAAIAAABBAAABAoQAA=</HashCode>
+      <FileName>TypDronu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vozidlo">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAQAAAAETABBAADAAEIEAAiCAAAgAECEskRAA=</HashCode>
+      <FileName>Vozidlo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CentralnySklad">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EkIAAAAAAAQAAADgQCCAEAQ5ARAAAAIAAIwMAAAgASA=</HashCode>
+      <FileName>CentralnySklad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prekladisko">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAEAQIIBkANCQAAAAIgBSAAAEAogABiQEAAggAgA=</HashCode>
+      <FileName>Prekladisko.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

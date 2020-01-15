@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="structures">
+      <UniqueIdentifier>{9aa8e0ec-090b-4817-b553-bf66d3b07c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\vector">
+      <UniqueIdentifier>{7ad27836-c823-4842-a694-0e378a251ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\array">
+      <UniqueIdentifier>{36e54c08-a40a-408d-b2e6-c164645c66e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\list">
+      <UniqueIdentifier>{a7c4275b-a69e-4a0d-8aad-f4ef522f5887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objednavka">
+      <UniqueIdentifier>{1029fa51-9635-47ee-acd1-76492dfeda98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drony a vozidla">
+      <UniqueIdentifier>{245633aa-f275-4cb8-a0a5-666b37efaec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sklady">
+      <UniqueIdentifier>{509d1edc-5d78-4318-b925-cb1c0f133b01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="structures\structure.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\ds_routines.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\vector\vector.cpp">
+      <Filter>structures\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Dron.cpp">
+      <Filter>drony a vozidla</Filter>
+    </ClCompile>
+    <ClCompile Include="TypDronu.cpp">
+      <Filter>drony a vozidla</Filter>
+    </ClCompile>
+    <ClCompile Include="Miesto.cpp">
+      <Filter>objednavka</Filter>
+    </ClCompile>
+    <ClCompile Include="CentralnySklad.cpp">
+      <Filter>sklady</Filter>
+    </ClCompile>
+    <ClCompile Include="Objednavka.cpp">
+      <Filter>objednavka</Filter>
+    </ClCompile>
+    <ClCompile Include="Vozidlo.cpp">
+      <Filter>drony a vozidla</Filter>
+    </ClCompile>
+    <ClCompile Include="Prekladisko.cpp">
+      <Filter>sklady</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="structures\structure.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure_iterator.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\ds_routines.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\vector\vector.h">
+      <Filter>structures\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\ds_structure_types.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\array\array.h">
+      <Filter>structures\array</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\array\matrix.h">
+      <Filter>structures\array</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\array_list.h">
+      <Filter>structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\linked_list.h">
+      <Filter>structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\list.h">
+      <Filter>structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="Dron.h">
+      <Filter>drony a vozidla</Filter>
+    </ClInclude>
+    <ClInclude Include="TypDronu.h">
+      <Filter>drony a vozidla</Filter>
+    </ClInclude>
+    <ClInclude Include="Miesto.h">
+      <Filter>objednavka</Filter>
+    </ClInclude>
+    <ClInclude Include="CentralnySklad.h">
+      <Filter>sklady</Filter>
+    </ClInclude>
+    <ClInclude Include="Importy.h" />
+    <ClInclude Include="Objednavka.h">
+      <Filter>objednavka</Filter>
+    </ClInclude>
+    <ClInclude Include="Vozidlo.h">
+      <Filter>drony a vozidla</Filter>
+    </ClInclude>
+    <ClInclude Include="Prekladisko.h">
+      <Filter>sklady</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="aus.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
